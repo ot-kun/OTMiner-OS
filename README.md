@@ -10,6 +10,9 @@ A new firmware will be made for this miner, only works on self design PCB. I wou
 In my proof of concept, I made a adpator board on nerdqaxe++ with my rewritten firmware and I do think ethernet option should be great. Why don't go wireless!? I don't have bluetooth power supply, some wires/cables always attached to the board.
 
 ## PCB
+- 12 phase 24 MOSFETs@30A, should safely running @15A better thermal management, support up to 24x ASICs
+- for much stable unload, the ASIC will run under frequent and undervoltage.
+- lowest fan cooling, simulation done.
 - Actually not really a single board, there is a special design to make the whole project possible
 
 ## TODOS
